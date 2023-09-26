@@ -6,4 +6,5 @@ scikit-learn
 statsmodels
 catboost
 dill
+streamlit
 -e .
