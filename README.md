@@ -1,29 +1,27 @@
 # US House Price Analysis
 
-### Web application of House Price Index
-
 Analyzing the Influence of Various Social and Economic Factors on US Housing Prices
 
 The analysis is structured across three distinct notebooks:
 
-1. **[Data Gathering]**: In this notebook, data is acquired from publicly accessible online sources and processed into a clean and usable format using the pandas library. Multiple data sources are integrated to create consolidated dataframes that serve as the foundation for subsequent analyses. The combined datasets are also stored in a designated data directory for easy access in other notebooks.
+1. **[Data Extraction](https://github.com/saibattula93/House-Price-Analysis/blob/main/notebook/01_data_scrapping.ipynb)**: In this notebook, [data](https://github.com/saibattula93/House-Price-Analysis/tree/main/notebook/data) is acquired from publicly accessible online sources and processed into a clean and usable format using the pandas library. Multiple data sources are integrated to create consolidated dataframes that serve as the foundation for subsequent analyses. The combined datasets are also stored in a designated data directory for easy access in other notebooks.
 
-2. **Exploratory Data Analysis (EDA)**: This notebook focuses on exploratory data analysis, presenting visualizations that elucidate relationships between various dataset features. EDA provides insights into patterns, trends, and potential correlations within the data.
+2. **[Exploratory Data Analysis](https://github.com/saibattula93/House-Price-Analysis/blob/main/notebook/02_Data_analysis_and_EDA.ipynb)**: This notebook focuses on exploratory data analysis, presenting visualizations that elucidate relationships between various dataset features. EDA provides insights into patterns, trends, and potential correlations within the data.
 
-3. **Model Building**: In this notebook, a Linear Regressor model is trained and evaluated using the acquired data. The results of this model help us comprehend how different factors influence the prices of single households in the US. Notably, the S&P/Case-Shiller U.S. National Home Price Index is employed as a proxy for home prices in this analysis.
+3. **[Model Building](https://github.com/saibattula93/House-Price-Analysis/blob/main/notebook/03_Model_Building.ipynb)**: In this notebook, a Linear Regressor model is trained and evaluated using the acquired data. The results of this model help us comprehend how different factors influence the prices of single households in the US. Notably, the [S&P/Case-Shiller U.S. National Home Price Index](https://fred.stlouisfed.org/series/CSUSHPISA) is employed as a proxy for home prices in this analysis.
 
 The S&P/Case-Shiller Home Price Indices are instrumental in monitoring changes in the prices of single-family residential homes across the United States. These indices rely on sales pairs that have undergone at least two arm's length transactions, employing the repeat-sales method to mitigate the challenge of accounting for price variations due to differing home characteristics. Consequently, these indices measure fluctuations in single household prices over time while holding quality attributes constant. As a result, no quality-related variables such as the number of bedrooms, bathrooms, or furnishings have been considered in this analysis.
 
 How to Navigate:
 Simply click on the file you wish to explore:
-- Data Gathering
+- Data Extraction
 - EDA
 - Model Building
 
 Powered by raw.githack.com
 
 To Execute:
-1. Clone the repository or download the ZIP file.
+1. Clone the repository or [download the ZIP file](https://github.com/saibattula93/House-Price-Analysis/archive/refs/heads/main.zip).
 2. Unzip the downloaded file into an empty directory.
 3. Utilize Jupyter Notebook or Jupyter Lab to open the .ipynb files for exploration and analysis.
 
