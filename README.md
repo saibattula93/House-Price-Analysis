@@ -14,9 +14,9 @@ The S&P/Case-Shiller Home Price Indices are instrumental in monitoring changes i
 
 How to Navigate:
 Simply click on the file you wish to explore:
-- Data Extraction
-- EDA
-- Model Building
+- [Data Extraction](https://github.com/saibattula93/House-Price-Analysis/blob/main/notebook/01_data_scrapping.ipynb)
+- [EDA](https://github.com/saibattula93/House-Price-Analysis/blob/main/notebook/02_Data_analysis_and_EDA.ipynb)
+- [Model Building](https://github.com/saibattula93/House-Price-Analysis/blob/main/notebook/03_Model_Building.ipynb)
 
 Powered by raw.githack.com
 
