@@ -3,8 +3,9 @@ numpy
 seaborn
 matplotlib
 scikit-learn
-statsmodels
 catboost
+xgboost
 dill
 streamlit
+flask
 -e .
