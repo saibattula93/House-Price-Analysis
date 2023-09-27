@@ -46,7 +46,7 @@ class CustomData:
         owner_vacancy: float,
         week_earning: float,
         delinquent_rate: float,
-        hor,
+        hor:float,
         hp_idx_qtr: float):
 
         self.spend = spend

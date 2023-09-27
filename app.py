@@ -108,5 +108,3 @@ if st.button("Predict"):
     results = predict_data(user_data)
     st.subheader("Estimated Home Price Index in US:")
     st.info(f" {round(results, 2):,.2f}")
-
-
